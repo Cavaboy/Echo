@@ -1,0 +1,99 @@
+@import url(https://db.onlinewebfonts.com/c/e55e9079ee863276569c8a68d776ef04?family=Futura+Md+BT+Medium);
+* {
+    margin: 0;
+    font-family: "Futura Md BT Medium";
+}
+.header {
+    background: linear-gradient(180deg, #000000 0%, #0E0E0E 100%);
+    display: flex;
+    justify-content: center;  
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 40px 0;
+}
+.header svg {
+    height: 93px;
+}
+.echo {
+    color: rgba(54, 102, 224, 1);
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: .4vw;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    height: auto;
+}
+#loginTitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    margin-top: 83px;
+    margin-bottom: 14px;
+}
+.forms {
+    margin-top: 43px;
+    text-align: left;
+}
+.formSubtitle {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.login input, .login label {
+    width: 386px;
+    height: 60px;
+    border-radius: 12px;
+    margin-top: 7px;
+    margin-bottom: 29px;
+    text-indent: 20px;
+}
+.forms button {
+    cursor: pointer;
+    border: none;
+    width: 387px;
+    height: 60px;
+    background: rgba(61, 115, 255, 1);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+#dividerline {
+    width: 430px;
+    border: 1px solid white;
+    margin: 47px 0;
+}
+.loginMeths {
+    display: flex;
+    flex-direction: column;
+}
+.loginMeths button {
+    display: flex;
+    width: 386px;
+    height: 60px;
+    border-radius: 30px;
+    margin-block-end: 15px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+.loginMeths button img {
+    height: 31px;
+    width: 31px;
+    float: left;
+    margin-top: 1.5vh;
+    position: absolute;
+}
+.loginMeths button span {
+    margin: auto;
+}
