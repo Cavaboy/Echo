@@ -43,12 +43,16 @@ main {
     margin-top: 43px;
     text-align: left;
 }
+.login {
+    display: flex;
+    flex-direction: column;
+}
 .formSubtitle {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
 }
-.login input, .login label {
+.login input {
     width: 386px;
     height: 60px;
     border-radius: 12px;
@@ -86,12 +90,14 @@ main {
     margin-block-end: 15px;
     padding-left: 24px;
     cursor: pointer;
+    border: none;
+    align-items: center;
+    box-sizing: border-box;
 }
 .loginMeths button img {
     height: 31px;
     width: 31px;
     float: left;
-    margin-top: 1.5vh;
     position: absolute;
 }
 .loginMeths button span {
